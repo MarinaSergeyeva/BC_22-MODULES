@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main {
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+
+/* ================================================== */
+.sidebarNavigation ul {
+  display: flex;
+  flex-direction: column;
+}

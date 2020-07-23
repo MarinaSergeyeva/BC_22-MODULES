@@ -1,0 +1,19 @@
+.navigationList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.navigationListItem {
+  margin: 10px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.navigationListItem a {
+  text-decoration: none;
+}
+
+.activeLink {
+  background-color: cornflowerblue;
+}
